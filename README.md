@@ -135,21 +135,10 @@ where $\lambda$ is the elimination rate of the `circulation_concentration`, $C$.
 
 #### `2C` model
 The `2C` model is a 2-comparment model defined by 
-<!-- Differential equations for a pharmacokinetic-pharmacodynamic (PKPD) model -->
-
-<!-- Equation for the change in concentration of the drug (C) over time -->
-\[ C' = \frac{k_{21}}{R}P - k_{12}C - \lambda C \]
-
-<!-- Equation for the change in concentration of the pharmacodynamic effect (P) over time -->
-\[ P' = k_{12}RC - k_{21}P \]
-
-<!-- Where: -->
-<!-- C: Concentration of the drug -->
-<!-- P: Concentration of the pharmacodynamic effect -->
-<!-- k_{12}: Rate constant for drug distribution from central compartment to effect compartment -->
-<!-- k_{21}: Rate constant for drug distribution from effect compartment to central compartment -->
-<!-- R: Ratio of drug concentrations between effect compartment and central compartment -->
-<!-- \lambda: Elimination rate constant of the drug -->
+$$
+C' = \frac{k_{21}}{R}P - k_{12}C - \lambda C \\
+P' = k_{12}RC - k_{21}P
+$$
 
 
 where $\lambda$ and $C$ are as [above](#1C), $P$ is the concentration in a peripheral compartment, though not the PhysiCell microenvironment.
