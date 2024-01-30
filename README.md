@@ -136,7 +136,10 @@ where $\lambda$ is the elimination rate of the `circulation_concentration`, $C$.
 #### `2C` model
 The `2C` model is a 2-comparment model defined by 
 $$
-C' = \frac{k_{21}}{R}P - k_{12}C - \lambda C \\
+C' = \frac{k_{21}}{R}P - k_{12}C - \lambda C
+$$
+
+$$
 P' = k_{12}RC - k_{21}P
 $$
 
