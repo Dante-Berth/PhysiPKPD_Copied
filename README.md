@@ -129,15 +129,15 @@ If you can run the `sample_projects_intracellular/ode` projects, you are ready t
 #### `1C` model <a name="1C"></a>
 The `1C` model is a 1-comparment model defined by 
 ```math
-C' & = - \lambda C
+C' = - \lambda C
 ```
 where $\lambda$ is the elimination rate of the `circulation_concentration`, $C$.
 
 #### `2C` model
 The `2C` model is a 2-comparment model defined by 
 ```math
-C' & = \frac{k_{21}}{R}P - k_{12}C - \lambda C \\
-P' & = k_{12}RC - k_{21}P
+C' = \frac{k_{21}}{R}P - k_{12}C - \lambda C \\
+P' = k_{12}RC - k_{21}P
 ```
 
 where $\lambda$ and $C$ are as [above](#1C), $P$ is the concentration in a peripheral compartment, though not the PhysiCell microenvironment.
