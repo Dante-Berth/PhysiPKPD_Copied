@@ -22,6 +22,7 @@ VERSION.txt
 /ode_energy
 /pkpd_sample
 /PhysiBoSS_Cell_Lines
+/uml
 
 # PhysiCell folders to ignore
 addons/PhysiBoSS

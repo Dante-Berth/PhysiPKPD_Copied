@@ -1,0 +1,9 @@
+OUTPUT_DIRECTORY       = uml
+INPUT                  = addons/PhysiPKPD/src
+RECURSIVE            = YES
+EXTRACT_ALL          = YES
+UML_LOOK             = YES
+SOURCE_BROWSER = YES
+INLINE_SOURCE = YES
+REFERENCES_LINK_SOURCE = YES
+
